@@ -14,9 +14,13 @@
 
 ---
 
-<p align="center">
-<img loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
-</p>
+![GitHub Org's stars](https://img.shields.io/github/stars/camilafernanda?style=social)
+
+
+<h4 align="center"> 
+	:construction:  Projeto em construção  :construction:
+</h4>
+
 
 ## :busts_in_silhouette: Nossa Equipe
 
@@ -25,8 +29,8 @@
 | Product OWner | Pedro H. Mattos | [![Linkedin](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)]() [![GitHub](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)]() |<p align="center"><img src= "https://github.com/user-attachments/assets/8108bdb8-c9d3-473e-9800-da1286cc91e5" alt="Pedro" style="width:60px;height:60px;">
 | Scrum Master| Cleber Kirch | [![Linkedin](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/cleberkirch/) [![GitHub](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/cleberkirch86/) |<p align="center"><img src= "https://github.com/user-attachments/assets/9683e19f-7d59-4273-8a08-8cbddadcf2c8" alt="Cleber" style="width:60px;height:60px;">
 | Developer | Ed Wilson | [![Linkedin](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://linkedin.com) [![GitHub](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com) |<p align="center"><img src= "https://github.com/user-attachments/assets/32812572-8636-43e6-bc31-88844c1fe8c3" alt=" Ed " style="width:60px;height:60px;">
-| Developer | Kauã R. | [![Linkedin](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/kauarabelo) [![GitHub](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/Kauarabelo) |<p align="center"><img src= "https://github.com/user-attachments/assets/38ad8dc3-498a-42d3-ab59-3a2ca8e4c55d" alt="Kauã" style="width:60px;height:60px;">
 | DBA | Aguinaldo Junior | [![Linkedin](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/aguinaldo-cardoso-427270200) [![GitHub](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/aguinaldojunior31) |<p align="center"><img src= "https://github.com/user-attachments/assets/29fe9cac-0ca1-410d-a42e-e8b6daf94640" alt="Aguinaldo" style="width:60px;height:60px;">
+
 
 ## :dart: Contextualização
 
@@ -103,5 +107,11 @@ Este projeto propõe o desenvolvimento de uma plataforma, semelhante a um "Linke
 - [ ] **US 9:** Como **Administrador**, quero **gerar relatórios básicos sobre as competências**.
 
 ---
+
+## ✔️ Técnicas e tecnologias utilizadas
+
+- ``Java 8``
+- ``InteliJ IDEA``
+
 
 🔥 Vamos com tudo! #GoLegacyTech 🚀
