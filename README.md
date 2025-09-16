@@ -1,6 +1,7 @@
 # 🎓 3rd-Semester - FATEC SJC 🚀
 
 ## 🦾 Nome do Grupo: **LegacyTech**
+![Image](https://github.com/user-attachments/assets/e433376b-1fb6-4094-8b4d-72e69cb91a27)
 
 # Plataforma Interna de Mapeamento de Competências - Altave
 
