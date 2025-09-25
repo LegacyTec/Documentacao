@@ -114,10 +114,16 @@ Este projeto propõe o desenvolvimento de uma plataforma, semelhante a um "Linke
 
 ---
 
-## ✔️ Técnicas e tecnologias utilizadas
+## 📦 Tecnologias usadas
 
-- ``Java 8``
-- ``InteliJ IDEA``
+| Tecnologia | Para que serve |
+| --- | --- |
+| **React 18** | Biblioteca de UI baseada em componentes. |
+| **TypeScript 5** | Tipagem estática para JavaScript. |
+| **Vite 7** | Dev server e bundler muito rápido. |
+| **Tailwind CSS v4** | Framework CSS baseado em utilitários (ex.: `p-4`, `text-blue-600`). |
+| **PostCSS + @tailwindcss/postcss** | Pipeline de CSS usado pelo Tailwind v4. |
+| **ESLint** | Padronização e boas práticas no código. |
 
 
 🔥 Vamos com tudo! #GoLegacyTech 🚀
