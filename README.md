@@ -114,16 +114,21 @@ Este projeto propõe o desenvolvimento de uma plataforma, semelhante a um "Linke
 
 ---
 
+## 📁 Acesso ao projeto
+
+[![Abrir o Projeto](https://img.shields.io/badge/Abrir%20o%20Projeto-0969DA?style=for-the-badge&logo=github)](https://github.com/pedromattos11/backend-altave)
+[![Código Frontend](https://img.shields.io/badge/Código%20Frontend-1572B6?style=for-the-badge&logo=react&logoColor=white)](https://github.com/EdWilsonsj/front-altave)
+
+
 ## 📦 Tecnologias usadas
 
 | Tecnologia | Para que serve |
 | --- | --- |
-| **React 18** | Biblioteca de UI baseada em componentes. |
-| **TypeScript 5** | Tipagem estática para JavaScript. |
-| **Vite 7** | Dev server e bundler muito rápido. |
-| **Tailwind CSS v4** | Framework CSS baseado em utilitários (ex.: `p-4`, `text-blue-600`). |
-| **PostCSS + @tailwindcss/postcss** | Pipeline de CSS usado pelo Tailwind v4. |
-| **ESLint** | Padronização e boas práticas no código. |
-
+| **[React 18](https://react.dev/)** | Biblioteca de UI baseada em componentes. |
+| **[TypeScript 5](https://www.typescriptlang.org/docs/handbook/intro.html)** | Tipagem estática para JavaScript. |
+| **[Vite 7](https://vite.dev/)** | Dev server e bundler muito rápido. |
+| **[Tailwind CSS v4](https://tailwindcss.com/)** | Framework CSS baseado em utilitários (ex.: `p-4`, `text-blue-600`). |
+| **[PostCSS + @tailwindcss/postcss](https://postcss.org/)** | Pipeline de CSS usado pelo Tailwind v4. |
+| **[ESLint](https://eslint.org/docs/latest/)** | Padronização e boas práticas no código. |
 
 🔥 Vamos com tudo! #GoLegacyTech 🚀
