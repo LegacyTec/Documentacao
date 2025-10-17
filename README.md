@@ -116,9 +116,8 @@ Este projeto propõe o desenvolvimento de uma plataforma, semelhante a um "Linke
 
 ## 📁 Acesso ao projeto
 
-[![Abrir o Projeto](https://img.shields.io/badge/Abrir%20o%20Projeto-0969DA?style=for-the-badge&logo=github)](https://github.com/pedromattos11/backend-altave)
-[![Código Frontend](https://img.shields.io/badge/Código%20Frontend-1572B6?style=for-the-badge&logo=react&logoColor=white)](https://github.com/EdWilsonsj/front-altave)
-
+[![Código Backend](https://img.shields.io/badge/C%C3%B3digo%20Backend-47A248?style=for-the-badge&logo=node.js&logoColor=white)](https://github.com/pedromattos11/backend-altave)
+[![Código Frontend](https://img.shields.io/badge/C%C3%B3digo%20Frontend-1572B6?style=for-the-badge&logo=react&logoColor=white)](https://github.com/EdWilsonsj/front-altave)
 
 ## 📦 Tecnologias usadas
 
