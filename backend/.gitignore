@@ -1,0 +1,69 @@
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+# Arquivos de configuração locais
+application-local.properties
+application-production.properties
+application-prod.properties
+application-dev.properties
+application-development.properties
+
+# Documentação com informações sensíveis
+ENVIRONMENT_SETUP.md
+VERCEL_ENV_VARS.md
+CORREÇÕES*.md
+INSTRUÇÕES*.md
+
+# Scripts locais
+run-local.bat
+run-local.ps1
+test-*.ps1
+test-*.sh
+debug-*.*
+
+# Environment variables and secrets
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*
+secrets.yml
+secrets.json
+*secret*
+*token*
+*password*
+*api-key*
+*apikey*
