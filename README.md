@@ -47,7 +47,7 @@ boards/
 | Tecnologia | Uso |
 |------------|-----|
 | **Java 17 + Spring Boot** | API REST, JPA/Hibernate |
-| **PostgreSQL** | Banco de dados relacional (3FN) |
+| **MySQL** | Banco de dados relacional (3FN) |
 | **React 18 + TypeScript** | Interface do usuário |
 | **Vite** | Build tool e dev server |
 | **Tailwind CSS v4** | Estilização utilitária |
