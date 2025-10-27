@@ -35,10 +35,10 @@
 
 | # | Issue | Título | Responsável | Status | Fechada |
 |---|-------|--------|-------------|--------|---------|
-| 23 | #23 | CARD 11 - DIAGRAMA ER COMPLETO | - | ✅ Done | 25/09 |
-| 24 | #24 | CARD 12 - DEFINIÇÃO DE ENTIDADES PRINCIPAIS | - | ✅ Done | 25/09 |
-| 25 | #25 | CARD 13 - MAPEAMENTO DE RELACIONAMENTOS | - | ✅ Done | 25/09 |
-| 27 | #27 | CARD 15 - SCRIPTS DDL (CREATE TABLES) | - | ✅ Done | 27/10 |
+| 23 | #23 | CARD 11 - DIAGRAMA ER COMPLETO | @aguinaldojunior31 e @dievit | ✅ Done | 25/09 |
+| 24 | #24 | CARD 12 - DEFINIÇÃO DE ENTIDADES PRINCIPAIS | @aguinaldojunior31 e @dievit | ✅ Done | 25/09 |
+| 25 | #25 | CARD 13 - MAPEAMENTO DE RELACIONAMENTOS | @aguinaldojunior31 e @dievit | ✅ Done | 25/09 |
+| 27 | #27 | CARD 15 - SCRIPTS DDL (CREATE TABLES) | @aguinaldojunior31 e @dievit | ✅ Done | 27/10 |
 
 ### 🎨 Frontend - Autenticação & Perfil
 
@@ -47,14 +47,14 @@
 | 35 | #35 | CARD 23 - TELA DE LOGIN | @pedromattos11 | ✅ Done | 24/09 |
 | 36 | #36 | CARD 24 - CADASTRO DE USUÁRIO - PRIMEIRA TELA | @pedromattos11 | ✅ Done | 24/09 |
 | 39 | #39 | CARD 27 - EDIÇÃO DE PERFIL DO COLABORADOR | @pedromattos11 | ✅ Done | 27/10 |
-| 40 | #40 | CARD 28 - TELA DE ADMINISTRADOR/GESTOR | @pedromattos11 | ✅ Done | 27/10 |
+| 40 | #40 | CARD 28 - TELA DE ADMINISTRADOR/GESTOR | @cleberkirch86 | ✅ Done | 27/10 |
 
 ### 🎨 Design & UX
 
 | # | Issue | Título | Responsável | Status | Fechada |
 |---|-------|--------|-------------|--------|---------|
-| 19 | #19 | TELAS DO FIGMA | @pedromattos11 | ✅ Done | 27/10 |
-| 21 | #21 | CARD 8 - IDENTIDADE VISUAL DO SISTEMA | - | ✅ Done | 27/10 |
+| 19 | #19 | TELAS DO FIGMA | @cleberkirch86 | ✅ Done | 27/10 |
+| 21 | #21 | CARD 8 - IDENTIDADE VISUAL DO SISTEMA | @cleberkirch86 e @carloscosta67 | ✅ Done | 27/10 |
 
 ### 🎨 UI/UX Avançado
 
