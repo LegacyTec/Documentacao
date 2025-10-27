@@ -1,29 +1,66 @@
-# 🎓 3rd-Semester - FATEC SJC 🚀
-
-## 🦾 Nome do Grupo: **LegacyTech**
-![Image](https://github.com/user-attachments/assets/e433376b-1fb6-4094-8b4d-72e69cb91a27)
-
 # Plataforma Interna de Mapeamento de Competências - Altave
 
+![Image](https://github.com/user-attachments/assets/e433376b-1fb6-4094-8b4d-72e69cb91a27)
+
+> 🚀 **LegacyTech** | 3º Semestre - FATEC SJC | API - Sprint 2
+
 <p align="center">
-    <a href="#-nossa-equipe-busts_in_silhouette">Equipe</a> |
-    <a href="#-contextualização">Contextualização</a> |
-    <a href="#-requisitos-funcionais-e-não-funcionais">Requisitos</a> |
-    <a href="#-product-backlog">Product Backlog</a> |
-    <a href="#-sprints">Sprints</a>
+    <a href="#-sobre-o-projeto">Sobre</a> |
+    <a href="#-estrutura-do-projeto">Estrutura</a> |
+    <a href="#-como-rodar">Como Rodar</a> |
+    <a href="#-product-backlog">Backlog</a> |
+    <a href="#-sprints">Sprints</a> |
+    <a href="#-padrões-e-convenções">Padrões</a> |
+    <a href="#-equipe">Equipe</a>
 </p>
 
 ---
 
-![GitHub Org's stars](https://img.shields.io/github/stars/camilafernanda?style=social)
+## 🎯 Sobre o Projeto
 
+Plataforma web para mapeamento de competências internas da Altave. Permite que colaboradores criem perfis profissionais e gestores visualizem habilidades da equipe para formação estratégica de times.
 
-<h4 align="center"> 
-	:construction:  Projeto em construção  :construction:
-</h4>
+**Problema:** Dificuldade em identificar habilidades específicas entre colaboradores à medida que a empresa cresce.
 
+**Solução:** "LinkedIn interno" com perfis, busca avançada por competências e visão analítica para gestão de talentos.
 
-## :busts_in_silhouette: Nossa Equipe
+## 📁 Estrutura do Projeto
+
+```
+boards/
+├── backend/          # API Spring Boot (Java)
+├── frontend/         # Interface React + TypeScript + Vite
+├── Documentacao/     # Modelagem de dados, diagramas
+├── Manual de Instalação
+└── manual do usuario.md
+```
+
+### 📦 Repositórios
+
+| Componente | Link | Deploy |
+|------------|------|--------|
+| **Backend** | [🔗 Repositório](https://github.com/pedromattos11/backend-altave) | Railway |
+| **Frontend** | [🔗 Repositório](https://github.com/EdWilsonsj/front-altave) | Vercel |
+
+### 🛠️ Tecnologias
+
+| Tecnologia | Uso |
+|------------|-----|
+| **Java 17 + Spring Boot** | API REST, JPA/Hibernate |
+| **PostgreSQL** | Banco de dados relacional (3FN) |
+| **React 18 + TypeScript** | Interface do usuário |
+| **Vite** | Build tool e dev server |
+| **Tailwind CSS v4** | Estilização utilitária |
+
+## ▶️ Como Rodar
+
+Consulte o [Manual de Instalação](./Manual%20de%20Instalação) para instruções detalhadas de setup local.
+
+**Resumo:**
+- **Backend:** `cd backend && mvn spring-boot:run`
+- **Frontend:** `cd frontend && npm install && npm run dev`
+
+## 👥 Equipe
 
 | FUNÇÃO | NOME | REDES SOCIAIS | FOTO |
 | --- | --- | --- | --- |
@@ -38,30 +75,30 @@
 
 
 
-## :dart: Contextualização
+## 📝 Requisitos
 
-Atualmente, a Altave enfrenta desafios na gestão de talentos internos, especialmente na identificação de habilidades específicas entre os colaboradores. Com o crescimento da empresa, torna-se difícil para as lideranças saberem quem possui conhecimento em tecnologias como Python e Power BI, ou quem tem um perfil de liderança ou de analista.
+<details>
+<summary><b>Requisitos Funcionais</b></summary>
 
-Este projeto propõe o desenvolvimento de uma plataforma, semelhante a um "LinkedIn interno", onde cada colaborador possa criar e manter um perfil profissional. O objetivo é permitir que gestores tenham uma visão analítica das competências da empresa, facilitando a busca por talentos internos e a formação de equipes para novos projetos.
+- CRUD de perfis profissionais (competências, certificações, experiências)
+- Visualização hierárquica (gestores visualizam suas equipes)
+- Sistema de tags e avaliações por gestores
+- Busca avançada por habilidades
+- Relatórios de competências (desejável)
+- Notificações de atualização de perfil (desejável)
 
-## :page_facing_up: Requisitos Funcionais e Não Funcionais
+</details>
 
-### Requisitos Funcionais
-1.  **Gerenciamento de Perfis:** Permitir que colaboradores criem e atualizem seus perfis com informações como competências técnicas, soft skills, certificações e experiências.
-2.  **Visualização Hierárquica:** Gestores (supervisores e diretores) devem poder visualizar os perfis dos membros de suas equipes.
-3.  **Avaliação por Gestores:** Permitir que gestores adicionem tags e avaliações aos perfis dos colaboradores.
-4.  **Busca Avançada:** Implementar um mecanismo de busca para que gestores possam encontrar colaboradores com base em habilidades específicas.
-5.  **Relatórios (Desejável):** Gerar relatórios sobre as competências disponíveis na empresa.
-6.  **Notificações (Desejável):** Enviar lembretes para que os colaboradores atualizem seus perfis periodicamente (ex: a cada 6 meses).
+<details>
+<summary><b>Requisitos Não Funcionais</b></summary>
 
-### Requisitos Não Funcionais
-1.  **Manual de Instalação:** O projeto deve conter um manual de instalação claro e objetivo no Git.
-2.  **Manual do Usuário:** Deve ser fornecido um manual do usuário para orientar a utilização da plataforma.
-3.  **Interface:** O sistema deve ter um front-end minimalista e funcional.
-4.  **Banco de Dados:** O modelo de banco de dados deve ser relacional, normalizado até a Terceira Forma Normal (3FN).
-5.  **Documentação do BD:** A modelagem de dados (conceitual, lógico, físico) e o dicionário de dados devem ser documentados.
-6.  **Estrutura de Perfis:** O sistema deve suportar no mínimo 3 tipos de perfis com hierarquia: diretor, supervisor e colaborador.
-7.  **Massa de Dados:** O banco de dados deve ser populado com no mínimo 100 registros para testes e demonstração.
+- Interface minimalista e funcional
+- Banco de dados relacional normalizado (3FN)
+- 3 tipos de perfis: Diretor, Supervisor, Colaborador
+- Massa de dados com 100+ registros
+- Documentação completa (modelagem, dicionário de dados)
+
+</details>
 
 ## :star: Product Backlog
 
@@ -85,23 +122,33 @@ Este projeto propõe o desenvolvimento de uma plataforma, semelhante a um "Linke
 | Sprint 2 | 06/10/2025 à 26/10/2025 | Implementação da busca por habilidades, sistema de tags/avaliação para gestores e gerenciamento de perfis pelo admin. |
 | Sprint 3 | 03/11/2025 à 23/11/2025 | Desenvolvimento de relatórios, adição de certificações/experiências, testes finais e elaboração da documentação. |
 
-## 📋 Sprint Backlog
+## 📋 Sprint Backlog e Alocação
 
 ### 🏃‍♂️ Sprint 1 (Em andamento)
 **Período:** 08/09/2025 – 28/09/2025
 
-- [ ] **US 1:** Como **Colaborador**, quero **criar e manter meu perfil profissional**.
-- [ ] **US 2:** Como **Colaborador**, quero poder **adicionar minhas competências**.
-- [ ] **US 3:** Como **Gestor**, quero **visualizar os perfis dos colaboradores da minha equipe**.
+📄 **[Ver alocação detalhada e burndown → SPRINT_1.md](./SPRINT_1.md)**
+
+**User Stories:**
+- 🔄 **US 1:** Criar e manter perfil profissional (8 SP)
+- 🔄 **US 2:** Adicionar competências ao perfil (5 SP)
+- 🔄 **US 3:** Visualizar perfis da equipe (8 SP)
+
+**Progress:** 25 tarefas | ✅ 7 concluídas | 🔄 7 em progresso | 📋 11 a fazer
 
 ---
 
-### 🏃‍♂️ Sprint 2 (A Fazer)
+### 🏃‍♂️ Sprint 2 (Finaliza hoje - 26/10)
 **Período:** 06/10/2025 – 26/10/2025
 
-- [ ] **US 4:** Como **Gestor**, quero poder **adicionar tags e avaliações aos perfis**.
-- [ ] **US 5:** Como **Gestor**, quero **realizar buscas por habilidades específicas**.
-- [ ] **US 6:** Como **Administrador**, quero **gerenciar os perfis de usuários e suas permissões**.
+📄 **[Ver alocação detalhada e burndown → SPRINT_2.md](./SPRINT_2.md)**
+
+**User Stories:**
+- 🔄 **US 4:** Adicionar tags e avaliações aos perfis (8 SP)
+- 🔄 **US 5:** Busca por habilidades específicas (13 SP)
+- 🔄 **US 6:** Gerenciar perfis e permissões (8 SP)
+
+**Progress:** 17 issues | ✅ 7 concluídas (41%) | 🔄 5 em progresso | ⚙️ 3 em validação | 📋 2 pendentes
 
 ---
 
@@ -114,20 +161,51 @@ Este projeto propõe o desenvolvimento de uma plataforma, semelhante a um "Linke
 
 ---
 
-## 📁 Acesso ao projeto
+## 📜 Padrões e Convenções
 
-[![Repositório Backend](https://img.shields.io/badge/C%C3%B3digo%20Backend-47A248?style=for-the-badge&logo=node.js&logoColor=white)](https://github.com/pedromattos11/backend-altave)
-[![Repositório Frontend](https://img.shields.io/badge/C%C3%B3digo%20Frontend-1572B6?style=for-the-badge&logo=react&logoColor=white)](https://github.com/EdWilsonsj/front-altave)
+### Estratégia de Branches (GitFlow Simplificado)
 
-## 📦 Tecnologias usadas
+```
+main            → Código estável/produção
+develop         → Integração de features
+sprint-N        → Branch de cada sprint (ex: sprint-1, sprint-2)
+feature/nome    → Features individuais (ex: feature/busca-avancada)
+```
 
-| Tecnologia | Para que serve |
-| --- | --- |
-| **[React 18](https://react.dev/)** | Biblioteca de UI baseada em componentes. |
-| **[TypeScript 5](https://www.typescriptlang.org/docs/handbook/intro.html)** | Tipagem estática para JavaScript. |
-| **[Vite 7](https://vite.dev/)** | Dev server e bundler muito rápido. |
-| **[Tailwind CSS v4](https://tailwindcss.com/)** | Framework CSS baseado em utilitários (ex.: `p-4`, `text-blue-600`). |
-| **[PostCSS + @tailwindcss/postcss](https://postcss.org/)** | Pipeline de CSS usado pelo Tailwind v4. |
-| **[ESLint](https://eslint.org/docs/latest/)** | Padronização e boas práticas no código. |
+**Fluxo:**
+1. Criar branch `feature/nome` a partir de `develop`
+2. Desenvolver e commitar seguindo o padrão
+3. Abrir PR para `develop`
+4. Ao final da sprint, merge de `develop` para `sprint-N`
+5. Após aprovação, merge para `main`
 
-🔥 Vamos com tudo! #GoLegacyTech 🚀
+### Padrão de Commits (Conventional Commits)
+
+```
+tipo(escopo): descrição curta
+
+[corpo opcional]
+
+[rodapé opcional]
+```
+
+**Tipos:**
+- `feat`: Nova funcionalidade
+- `fix`: Correção de bug
+- `docs`: Documentação
+- `style`: Formatação, lint
+- `refactor`: Refatoração de código
+- `test`: Testes
+- `chore`: Tarefas de build, configs
+
+**Exemplos:**
+```bash
+feat(backend): adicionar endpoint de busca por competências
+fix(frontend): corrigir validação de formulário de perfil
+docs(readme): atualizar instruções de instalação
+refactor(backend): extrair lógica do AdminController para AdminService
+```
+
+---
+
+🔥 **#GoLegacyTech** 🚀
