@@ -34,24 +34,23 @@
 ### 📝 Todo (2 tarefas - Estimate: 0)
 | # | Issue | Descrição | Responsável |
 |---|-------|-----------|-------------|
-| 1 | altave-front #11 | Desenhar dashboard do gestor | - |
-| 2 | altave-front #16 | Usuário poder colocar e trocar foto de perfil | - |
+| 1 | altave-front #11 | Desenhar dashboard do gestor | Aguinaldo e Carlos |
+| 2 | altave-front #16 | Usuário poder colocar e trocar foto de perfil | Ed e Diego |
 
 ### 🔄 In Progress (5 tarefas - Estimate: 0)
 | # | Issue | Descrição | Responsável |
 |---|-------|-----------|-------------|
-| 1 | altave-front #15 | Acessar servidores do backend e do frontend | - |
-| 2 | altave-front #9 | Clonar projeto em todas as máquinas e todos fazerem commit | - |
-| 3 | altave-front #10 | Usuário cadastrar 3 principais habilidades dele | - |
-| 4 | altave-front #4 | Desenvolvimento do .pptx pra apresentar sprint 2 | - |
-| 5 | altave-front #5 | Mensagens semanais com cliente | - |
+| 1 | altave-front #15 | Acessar servidores do backend e do frontend | Todos |
+| 2 | altave-front #10 | Usuário cadastrar 3 principais habilidades dele | Ed |
+| 3 | altave-front #4 | Desenvolvimento do .pptx pra apresentar sprint 2 | Pedro |
+| 4 | altave-front #5 | Mensagens semanais com cliente | Pedro |
 
 ### ✅ Validação (3 tarefas - Estimate: 0)
 | # | Issue | Descrição | Responsável |
 |---|-------|-----------|-------------|
-| 1 | altave-front #6 | Ajuste do modelo conceitual contendo novas funcionalidades | - |
-| 2 | altave-front #8 | Ajuste do modelo físico contendo novas funcionalidades | - |
-| 3 | altave-front #7 | Ajuste do modelo lógico contendo novas funcionalidades | - |
+| 1 | altave-front #6 | Ajuste do modelo conceitual contendo novas funcionalidades | Aguinaldo e Diego |
+| 2 | altave-front #8 | Ajuste do modelo físico contendo novas funcionalidades | Aguinaldo e Diego |
+| 3 | altave-front #7 | Ajuste do modelo lógico contendo novas funcionalidades | Aguinaldo e Diego |
 
 ### ✅ Done (7 tarefas - Estimate: 0)
 | # | Issue | Descrição | Responsável |
@@ -74,7 +73,7 @@
 | Coluna | Quantidade | Percentual |
 |--------|------------|------------|
 | **Todo** | 2 | 12% |
-| **In Progress** | 5 | 29% |
+| **In Progress** | 4 | 29% |
 | **Validação** | 3 | 18% |
 | **Done** | 7 | 41% |
 
@@ -138,8 +137,8 @@
 
 ### ⚠️ Desafios Identificados
 - **Velocidade abaixo do esperado:** Apenas 41% das issues foram concluídas
-- **Infraestrutura:** Problemas com acesso aos servidores atrasaram desenvolvimento (#15)
-- **Setup:** Dificuldade em clonar e configurar projeto em todas as máquinas (#9)
+- **Infraestrutura:** Problemas com acesso aos servidores remotos atrasaram desenvolvimento (#15)
+- **Setup:** Dificuldade em configurar projeto em todas as máquinas (#9)
 - **Dependências:** Ajustes de modelo de dados ainda em validação
 
 ### ✅ O que funcionou bem
