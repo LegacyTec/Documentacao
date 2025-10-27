@@ -57,7 +57,7 @@ boards/
 
 ## ▶️ Como Rodar
 
-Consulte o [Manual de Instalação](./Manual%20de%20Instalação) para instruções detalhadas de setup local.
+Consulte o [Manual de Instalação](./Manual%20de%20Instalação.md) para instruções detalhadas de setup local.
 
 **Resumo:**
 - **Backend:** `cd backend && mvn spring-boot:run`
@@ -170,17 +170,15 @@ Consulte o [Manual de Instalação](./Manual%20de%20Instalação) para instruç�
 
 ```
 main            → Código estável/produção
-develop         → Integração de features
 sprint-N        → Branch de cada sprint (ex: sprint-1, sprint-2)
 feature/nome    → Features individuais (ex: feature/busca-avancada)
 ```
 
 **Fluxo:**
-1. Criar branch `feature/nome` a partir de `develop`
+1. Criar branch `feature/nome` a partir de `main`
 2. Desenvolver e commitar seguindo o padrão
-3. Abrir PR para `develop`
-4. Ao final da sprint, merge de `develop` para `sprint-N`
-5. Após aprovação, merge para `main`
+3. Abrir PR para `main`
+4. Após aprovação, merge para `main`
 
 ### Padrão de Commits (Conventional Commits)
 
