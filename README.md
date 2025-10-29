@@ -41,8 +41,8 @@ boards/
 
 | Componente | Link | Deploy |
 |------------|------|--------|
-| **Backend** | [🔗 Repositório](https://github.com/LegacyTec/boards/tree/main/backend) | Railway |
-| **Frontend** | [🔗 Repositório](https://github.com/LegacyTec/boards/tree/main/frontend) | Vercel |
+| **Backend** | [🔗 Repositório](https://github.com/pedromattos11/backend-altave) | Railway |
+| **Frontend** | [🔗 Repositório](https://github.com/Edwilsonsj) | Vercel |
 
 
 ### 🛠️ Tecnologias
