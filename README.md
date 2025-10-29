@@ -42,7 +42,7 @@ boards/
 | Componente | Link | Deploy |
 |------------|------|--------|
 | **Backend** | [🔗 Repositório](https://github.com/pedromattos11/backend-altave) | Railway |
-| **Frontend** | [🔗 Repositório](https://github.com/Edwilsonsj) | Vercel |
+| **Frontend** | [🔗 Repositório](https://github.com/Edwilsonsj/front-altave) | Vercel |
 
 
 ### 🛠️ Tecnologias
