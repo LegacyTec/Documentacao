@@ -1,6 +1,6 @@
 # Plataforma Interna de Mapeamento de Competências - Altave
 
-![Image](https://github.com/user-attachments/assets/e433376b-1fb6-4094-8b4d-72e69cb91a27)
+
 
 > 🚀 **LegacyTech** | 3º Semestre - FATEC SJC | API - Sprint 2
 
@@ -23,6 +23,10 @@ Plataforma web para mapeamento de competências internas da Altave. Permite que 
 **Problema:** Dificuldade em identificar habilidades específicas entre colaboradores à medida que a empresa cresce.
 
 **Solução:** "LinkedIn interno" com perfis, busca avançada por competências e visão analítica para gestão de talentos.
+
+
+<H1> 🚀 https://front-altave.vercel.app/</H1>
+
 
 ## 📁 Estrutura do Projeto
 
