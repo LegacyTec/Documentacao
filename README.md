@@ -28,6 +28,7 @@ Plataforma web para mapeamento de competências internas da Altave. Permite que 
 <H1> 🚀 https://front-altave.vercel.app/</H1>
 
 
+
 ## 📁 Estrutura do Projeto
 
 ```
@@ -47,6 +48,7 @@ boards/
 |------------|------|--------|
 | **Backend** | [🔗 Repositório](https://github.com/pedromattos11/backend-altave) | Railway |
 | **Frontend** | [🔗 Repositório](https://github.com/Edwilsonsj/front-altave) | Vercel |
+| **Boards/Cards** | [Board do Projeto](https://github.com/orgs/LegacyTec/projects/15) ||
 
 
 ### 🛠️ Tecnologias
