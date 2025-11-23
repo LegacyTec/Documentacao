@@ -20,6 +20,96 @@
 
 ---
 
+```mermaid
+erDiagram
+    COLABORADOR {
+        int id_colaborador PK "Identificador unico"
+        varchar nome
+        varchar email
+        int id_colaborador_dup "Verificar modelagem"
+        numeric cpf
+        varchar apresentacao
+        varchar id_perfil
+        varchar id_perfil_temperamenv
+        varchar foto_perfil
+    }
+
+    CERTIFICACAO {
+        varchar nome_certific
+        varchar string_instituicao
+        int id_certificacao
+        int Colaborador_id_col FK
+    }
+
+    EXPERIENCIA {
+        varchar string_cargo
+        varchar string_empresa
+        date data_data_inici
+        date data_data_fim
+        int id_Experiencia PK
+        int Colaborador_id_int FK
+    }
+
+    CARGO {
+        int id_cargo
+        varchar string_nome_cargo
+        int Colaborador_id_colabora FK
+    }
+
+    SOFT_SKILL {
+        int id_competencia
+        varchar nome_competenciv
+        int id_Soft_Skill PK
+        int Colaborador_id_c_int FK
+    }
+
+    HARD_SKILL {
+        int id_competencia
+        varchar nome_competenciv
+        int id_Hard_Skill PK
+        int Colaborador_id_col_int FK
+    }
+
+    COMPETENCIA {
+        varchar string_nome_compete
+        varchar string_tipo_habilidade
+        int id_competencia
+        int Colaborador_id_colab FK
+    }
+
+    COMENTARIO {
+        int id_comentario
+        varchar id_colaborador_or
+        varchar id_colaborador_de
+        varchar texto_comentario
+        date data_comentario
+        int Colaborador_id_c_int FK
+    }
+
+    HIERARQUIA {
+        int id_hierarqui PK
+        varchar nome_hierarq
+        int Colaborador_id_int FK
+    }
+
+    TESTE_TEMPERAMENTO {
+        varchar id_teste
+        int id_pontuacao
+        int Colaborador_id_int FK
+    }
+
+    COLABORADOR ||--o{ CERTIFICACAO : "tem"
+    COLABORADOR ||--o{ EXPERIENCIA : "possui"
+    COLABORADOR ||--o{ CARGO : "ocupa"
+    COLABORADOR ||--o{ COMENTARIO : "recebe/faz"
+    COLABORADOR ||--o{ SOFT_SKILL : "possui"
+    COLABORADOR ||--o{ HARD_SKILL : "possui"
+    COLABORADOR ||--o{ COMPETENCIA : "relacionado_a"
+    COLABORADOR ||--o{ HIERARQUIA : "pertence_a"
+    COLABORADOR ||--o{ TESTE_TEMPERAMENTO : "realiza"
+```
+
+
 ## 3. Estrutura Detalhada das Entidades (Tabelas) 📋
 
 A seguir, a descrição detalhada de cada tabela, incluindo colunas, tipos de dados e restrições.
@@ -147,3 +237,5 @@ Os relacionamentos definem como as informações estão conectadas. Todos os rel
 -   **SGBD:** MySQL
 -   **Ambiente:** Nuvem (Railway)
 -   **Acesso:** As credenciais de acesso (hostname, porta, nome do banco, usuário e senha) estão disponíveis na aba "Credentials" do serviço de banco de dados no painel do Railway.
+
+
