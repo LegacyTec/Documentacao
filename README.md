@@ -80,6 +80,25 @@ Consulte o [Manual de Instalação](./Manual%20de%20Instalação.md) para instru
 - **Backend:** `cd backend && mvn spring-boot:run`
 - **Frontend:** `cd frontend && npm install && npm run dev`
 
+## 📚 Documentação Técnica
+
+### 📝 Manuais e Guias
+
+| Documento | Descrição | Link |
+|-----------|-------------|------|
+| **Manual de Instalação** | Guia completo de setup do ambiente | [📄 Ver manual](./Manual%20de%20Instalação.md) |
+| **Manual de Dados** | Estrutura do banco de dados, DER, dicionário | [📄 Ver manual](./Manual%20de%20Dados.md) |
+| **Manual do Usuário** | Guia de uso da plataforma | [📄 Ver manual](./manual%20do%20usuario.md) |
+
+### 💻 Guias de Programação
+
+| Componente | Documento | Descrição | Link |
+|------------|-----------|-------------|------|
+| **Backend** | README.md | Arquitetura, endpoints da API, configurações | [📄 Ver guia](./backend/README.md) |
+| **Frontend** | Coding Guide | Padrões de código, estrutura de componentes | [📄 Ver guia](./frontend/CODING_GUIDE.md) |
+| **Frontend** | Manual de Programação | Guia completo para desenvolvedores | [📄 Ver guia](./frontend/MANUAL_PROGRAMACAO.md) |
+| **Frontend** | Manual do Usuário | Guia de uso da interface | [📄 Ver guia](./frontend/MANUAL_USUARIO.md) |
+
 ## 📝 Requisitos
 
 <details>
