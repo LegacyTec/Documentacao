@@ -1,8 +1,8 @@
-# 📧 Sistema de Notificações por Email - MODO PRODUÇÃO
+﻿#  Sistema de Notificações por Email - MODO PRODUÇÃO
 
-## ✅ Configuração Final Implementada
+##  Configuração Final Implementada
 
-### 🎯 Como Funciona
+###  Como Funciona
 
 O sistema verifica **diariamente às 8:00** todos os colaboradores que:
 - Nunca atualizaram o perfil (`ultima_atualizacao = null`)
@@ -21,7 +21,7 @@ Quando encontra um perfil desatualizado, envia um email automaticamente.
 - Assunto: "Lembrete: Atualize seu perfil profissional - Altave"
 - Conteúdo: Informa que o perfil não foi atualizado há mais de 6 meses
 
-### 📝 Variáveis de Ambiente Necessárias
+###  Variáveis de Ambiente Necessárias
 
 No Railway ou localmente, configure:
 
@@ -46,14 +46,14 @@ Ou use o script:
 ./teste-email.sh
 ```
 
-### 📊 Logs
+###  Logs
 
 O sistema registra:
-- ✅ Quantos colaboradores foram notificados
-- ✅ Status de cada envio (sucesso/erro)
-- ✅ Detalhes da API do Resend
+-  Quantos colaboradores foram notificados
+-  Status de cada envio (sucesso/erro)
+-  Detalhes da API do Resend
 
-### 🎯 Próximos Passos para Produção
+###  Próximos Passos para Produção
 
 1. **Verificar domínio no Resend:**
    - Acesse https://resend.com/domains
@@ -67,7 +67,7 @@ O sistema registra:
    - Verifique diariamente os logs após às 8:00
    - Acompanhe quantas notificações foram enviadas
 
-### 📚 Documentação Relacionada
+###  Documentação Relacionada
 
 - `DISPARAR_EMAIL_AGORA.md` - Como testar imediatamente
 - `TESTE_EMAIL_RAPIDO.md` - Guia rápido de teste
@@ -76,5 +76,5 @@ O sistema registra:
 ---
 
 **Última atualização:** 29/10/2025
-**Status:** ✅ PRODUÇÃO - Configurado para verificar a cada 6 meses
+**Status:**  PRODUÇÃO - Configurado para verificar a cada 6 meses
 

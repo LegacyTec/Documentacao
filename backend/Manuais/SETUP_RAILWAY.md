@@ -1,10 +1,10 @@
-# Como Configurar o Deploy no Railway
+﻿# Como Configurar o Deploy no Railway
 
 ## 🚨 IMPORTANTE: Erro "Unable to access jarfile"
 
 O erro **"Unable to access jarfile target/backend-altave-0.0.1-SNAPSHOT.jar"** acontece porque o Railway está tentando usar NIXPACKS ao invés do Dockerfile.
 
-## ✅ Solução Rápida
+##  Solução Rápida
 
 ### 1. No painel do Railway:
 
@@ -57,7 +57,7 @@ Após o deploy:
 2. Acesse a URL fornecida (ex: `https://seu-app.railway.app`)
 3. Teste um endpoint (ex: `/api/usuarios`)
 
-## 📝 Notas
+##  Notas
 
 - O Dockerfile agora usa multi-stage build (mais eficiente)
 - As variáveis de ambiente sobrescrevem o `application.properties`

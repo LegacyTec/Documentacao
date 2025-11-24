@@ -1,10 +1,10 @@
-# Como Testar a Notificação por Email
+﻿# Como Testar a Notificação por Email
 
 ## Configuração Atual (MODO TESTE)
 
 **ATENÇÃO**: O sistema está configurado em **MODO TESTE** para demonstração ao cliente:
-- ✅ Verificação a cada **2 minutos**
-- ✅ Notifica colaboradores que não atualizaram há mais de **2 minutos**
+-  Verificação a cada **2 minutos**
+-  Notifica colaboradores que não atualizaram há mais de **2 minutos**
 
 ## Passos para Testar
 
@@ -24,7 +24,7 @@
 EMAIL_API_KEY=sua-chave-aqui
 ```
 
-⚠️ **NÃO precisa** de senha de app, SMTP, configurações complexas!
+️ **NÃO precisa** de senha de app, SMTP, configurações complexas!
 
 ### 2. Fazer Deploy
 

@@ -1,8 +1,8 @@
-# Otimizações de Performance Implementadas
+﻿# Otimizações de Performance Implementadas
 
 Este documento detalha as otimizações implementadas para reduzir o uso de memória e melhorar a performance da aplicação.
 
-## 🚀 Principais Otimizações
+##  Principais Otimizações
 
 ### 1. **Correção do Modelo Colaborador (CRÍTICO)**
 - **Problema**: Todas as relações `@ManyToMany` estavam com `FetchType.EAGER`
@@ -50,14 +50,14 @@ CMD ["java", "-Xmx256m", "-Xms128m", "-XX:+UseG1GC",
 - Controla exatamente quais dados são retornados pela API
 - Evita serialização desnecessária de objetos grandes
 
-## 📊 Resultados Esperados
+##  Resultados Esperados
 
 - **Redução de 70-80% no uso de memória** 
 - **Melhoria significativa na performance** das consultas
 - **Menor tráfego de rede** com DTOs otimizados
 - **Resposta mais rápida** da API
 
-## 🎯 Novos Endpoints Disponíveis
+##  Novos Endpoints Disponíveis
 
 ### Colaboradores Otimizados:
 - `GET /api/colaborador` - Lista básica (sem relações pesadas)
@@ -68,14 +68,14 @@ CMD ["java", "-Xmx256m", "-Xms128m", "-XX:+UseG1GC",
 - `GET /api/colaborador/{id}/certificacoes` - Colaborador + certificações
 - `GET /api/colaborador/{id}/complete` - Dados completos (usar com cuidado!)
 
-## ⚠️ Importante
+## ️ Importante
 
 1. **Use paginação** sempre que possível
 2. **Evite o endpoint `/complete`** a menos que realmente precise de todos os dados
 3. **Monitore o uso de memória** após o deploy
 4. **As configurações JVM podem precisar de ajuste** dependendo da carga
 
-## 🔧 Próximos Passos
+##  Próximos Passos
 
 Se ainda houver problemas de memória, considere:
 - Implementar cache Redis para consultas frequentes

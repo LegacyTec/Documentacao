@@ -1,37 +1,37 @@
-# 🧪 Teste de Email Local
+﻿# 🧪 Teste de Email Local
 
-## ✅ Configuração feita:
+##  Configuração feita:
 
 **Email:** pedro.hmattos19@gmail.com  
 **API Key:** re_4szh5P34_PBwcppn8MubKs1nCZtA4mHwQ
 
-## 🚀 Testar Agora:
+##  Testar Agora:
 
 ```bash
 cd backend-altave
 ./mvnw spring-boot:run -Dspring-boot.run.profiles=local
 ```
 
-## 📝 O que vai acontecer:
+##  O que vai acontecer:
 
 1. Sistema inicia
 2. Aguarde até 2 minutos
 3. Você verá nos logs:
    ```
    Iniciando verificação de perfis desatualizados...
-   ✅ Email enviado com sucesso para: colaborador@email.com
+    Email enviado com sucesso para: colaborador@email.com
    ```
 
 4. **Você receberá email real** em: pedro.hmattos19@gmail.com
 
-## ✅ Tudo Pronto!
+##  Tudo Pronto!
 
-- ✅ Configuração local OK
-- ✅ API Key configurada
-- ✅ Email configurado
-- ✅ Pronto para testar!
+-  Configuração local OK
+-  API Key configurada
+-  Email configurado
+-  Pronto para testar!
 
-## 📧 Railway:
+##  Railway:
 
 Quando fizer deploy, adicione no Railway:
 ```

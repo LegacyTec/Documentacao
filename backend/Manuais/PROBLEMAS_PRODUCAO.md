@@ -1,6 +1,6 @@
-# 🚨 Problemas em Produção vs Localhost
+﻿# 🚨 Problemas em Produção vs Localhost
 
-## Problema 1: Foto de Perfil Sumindo ❌
+## Problema 1: Foto de Perfil Sumindo 
 
 ### Causa:
 O Railway **não persiste arquivos** entre deployments. Cada vez que faz deploy:
@@ -10,7 +10,7 @@ O Railway **não persiste arquivos** entre deployments. Cada vez que faz deploy:
 
 ### Soluções Possíveis:
 
-#### ✅ Solução Rápida: Configurar Volume Persistente no Railway
+####  Solução Rápida: Configurar Volume Persistente no Railway
 
 1. No Railway, vá em seu serviço backend
 2. **Settings** → **Volumes**
@@ -22,14 +22,14 @@ O Railway **não persiste arquivos** entre deployments. Cada vez que faz deploy:
 
 Isso criará um volume que **persiste entre deploys**.
 
-#### 🔄 Solução Alternativa: Usar S3/Cloudinary (Recomendado para produção séria)
+####  Solução Alternativa: Usar S3/Cloudinary (Recomendado para produção séria)
 
 Para aplicações reais, use um serviço de armazenamento:
 - AWS S3
 - Cloudinary
 - Supabase Storage
 
-## Problema 2: Não Consegue Trocar Cargo ❌
+## Problema 2: Não Consegue Trocar Cargo 
 
 ### Verificação Necessária:
 
@@ -52,14 +52,14 @@ curl -X PUT https://SEU-BACKEND.railway.app/api/colaborador/1 \
   }'
 ```
 
-## 📋 Checklist de Verificação:
+##  Checklist de Verificação:
 
 - [ ] Volume persistente configurado no Railway
 - [ ] Frontend usando URL correta do backend
 - [ ] Testar endpoint de trocar cargo
 - [ ] Verificar logs do Railway para erros
 
-## ✅ Próximos Passos
+##  Próximos Passos
 
 1. **Configure o Volume no Railway** (mais fácil)
 2. Teste fazer upload de foto novamente

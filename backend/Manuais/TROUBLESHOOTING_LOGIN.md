@@ -1,11 +1,11 @@
-# 🔧 Troubleshooting - Problema de Login
+﻿#  Troubleshooting - Problema de Login
 
-## ✅ Correções Aplicadas
+##  Correções Aplicadas
 
-1. ✅ Adicionado V12 (placeholder) - corrigiu sequência Flyway
-2. ✅ Adicionado V15 com usuário de teste
-3. ✅ Corrigido V3 para usar email correto: `pedro@altave.com`
-4. ✅ Alterado V1 para incluir coluna `role`
+1.  Adicionado V12 (placeholder) - corrigiu sequência Flyway
+2.  Adicionado V15 com usuário de teste
+3.  Corrigido V3 para usar email correto: `pedro@altave.com`
+4.  Alterado V1 para incluir coluna `role`
 
 ## 🔍 Como Testar o Login
 
@@ -95,7 +95,7 @@ No painel do Vercel:
 - Execute as migrations novamente
 - Verifique se o email está correto em V3 e V15
 
-## 📋 Checklist de Verificação
+##  Checklist de Verificação
 
 - [ ] Backend deployado no Railway
 - [ ] Variável `VITE_API_URL` configurada no Vercel
@@ -125,7 +125,7 @@ Procure por:
 - `Flyway schema history table`
 - Qualquer erro relacionado a autenticação
 
-## ✅ Próximos Passos
+##  Próximos Passos
 
 Se ainda não funcionar:
 

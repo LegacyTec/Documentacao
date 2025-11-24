@@ -1,14 +1,14 @@
-# Deploy no Railway
+﻿# Deploy no Railway
 
 Este documento explica como fazer o deploy do backend no Railway.
 
-## 📋 Pré-requisitos
+##  Pré-requisitos
 
 1. Conta no Railway (https://railway.app/)
 2. Repositório Git com o código
 3. Instância MySQL configurada no Railway
 
-## 🚀 Passos para Deploy
+##  Passos para Deploy
 
 ### 1. Configurar o Banco de Dados MySQL no Railway
 
@@ -43,14 +43,14 @@ No Railway:
 - O Railway usará o Dockerfile para build
 - O serviço será iniciado automaticamente na porta configurada
 
-## ✅ Verificação
+##  Verificação
 
 Após o deploy, verifique:
 1. Se a aplicação está rodando no link fornecido pelo Railway
 2. Se o endpoint de health check responde
 3. Se as migrações do Flyway foram executadas corretamente
 
-## 🔧 Troubleshooting
+##  Troubleshooting
 
 ### Erro: "Cannot find bean"
 
@@ -69,7 +69,7 @@ Após o deploy, verifique:
 - Verifique se não há dependências faltando
 - Verifique os logs do build no Railway
 
-## 📝 Notas Importantes
+##  Notas Importantes
 
 - O diretório `uploads/` é criado automaticamente no container
 - As variáveis de ambiente sobrescrevem as configurações do `application.properties`

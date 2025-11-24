@@ -1,4 +1,4 @@
-# Como Testar o Upload de Foto
+﻿# Como Testar o Upload de Foto
 
 ## Problemas Comuns e Soluções
 

@@ -1,84 +1,52 @@
-# 📚 Manuais e Documentação do Sistema
+# Documentação Técnica - Backend
 
-Bem-vindo à documentação do backend Altave. Este diretório contém todos os manuais e guias de referência.
+Manuais técnicos e guias de referência do backend Altave.
 
-## 🚀 Comece Aqui
+## 1. Deploy e Configuração
 
-### Para Deploy e Configuração:
-- **`DEPLOY_RAPIDO.md`** - Deploy rápido com todas as configurações
-- **`SETUP_RAILWAY.md`** - Configuração completa do Railway
-- **`DEPLOY_RAILWAY.md`** - Processo de deploy no Railway
+- `SETUP_RAILWAY.md` - Configuração completa do Railway
+- `DEPLOY_RAILWAY.md` - Procedimento de deploy
+- `VARIAVEIS_RAILWAY.md` - Variáveis de ambiente
+- `VARIAVEL_RAILWAY_FLYWAY.md` - Configuração Flyway
 
-### Para Notificações por Email:
-- **`RESUMO_EMAIL_PRODUCAO.md`** - ⭐ **PRODUÇÃO** - Configuração final (6 meses)
-- **`DISPARAR_EMAIL_AGORA.md`** - ⚡ **TESTAR AGORA** - Disparar email imediatamente
-- **`TESTE_EMAIL_RAPIDO.md`** - 🔥 Teste rápido de email
-- **`LEIA-ME-EMAIL.md`** - Guia rápido de email
-- **`CONFIG_EMAIL_SIMPLES.md`** - Configuração Resend (5 minutos)
-- **`COMO_TESTAR_NOTIFICACAO.md`** - Como testar notificações
-- **`TESTE_EMAIL.md`** - Testes locais de email
-- **`CONFIGURACAO_EMAIL_NOTIFICACAO.md`** - Documentação técnica completa
-- **`RESUMO_NOTIFICACAO_EMAIL.md`** - Resumo do sistema de email
-- **`VARIAVEIS_RAILWAY_EMAIL.txt`** - Variáveis de ambiente para Railway
+## 2. Sistema de Notificações (Email)
 
-## 📋 Resumos e Status
+- `RESUMO_EMAIL_PRODUCAO.md` - Configuração de produção
+- `CONFIG_EMAIL_SIMPLES.md` - Configuração do Resend API
+- `TESTE_EMAIL.md` - Procedimento de teste
+- `COMO_TESTAR_NOTIFICACAO.md` - Testes de notificações
 
-- **`RESUMO_FINAL.md`** - Resumo completo da implementação
-- **`RESUMO_CORRECOES.md`** - Correções realizadas
-- **`RESUMO_UPLOAD_FOTO.md`** - Sistema de upload de foto
-- **`PROBLEMAS_PRODUCAO.md`** - Problemas conhecidos
+## 3. Upload de Arquivos
 
-## 🛠️ Funcionalidades Específicas
+- `UPLOAD_FOTO_PERFIL.md` - Implementação do upload
+- `COMO_TESTAR_UPLOAD.md` - Procedimento de teste
 
-### Upload de Foto de Perfil:
-- **`UPLOAD_FOTO_PERFIL.md`** - Como funciona o upload
-- **`COMO_TESTAR_UPLOAD.md`** - Como testar upload
+## 4. Troubleshooting
 
-### Frontend:
-- **`GUIDE_FRONTEND_SKILLS.md`** - Guia de skills no frontend
+- `TROUBLESHOOTING_LOGIN.md` - Problemas de autenticação
+- `PROBLEMAS_PRODUCAO.md` - Problemas conhecidos
 
-### Autenticação:
-- **`TROUBLESHOOTING_LOGIN.md`** - Solução de problemas de login
+## 5. Performance
 
-## 🎯 Configurações e Variáveis
+- `PERFORMANCE_OPTIMIZATION.md` - Otimizações
 
-- **`VARIAVEIS_RAILWAY.md`** - Todas as variáveis do Railway
-- **`VARIAVEL_RAILWAY_FLYWAY.md`** - Configuração Flyway
-- **`VARIAVEIS_RAILWAY_EMAIL.txt`** - Email e API Key
+## 6. Integração Frontend/Backend
 
-## ⚡ Performance
-
-- **`PERFORMANCE_OPTIMIZATION.md`** - Otimizações de performance
+- `GUIDE_FRONTEND_SKILLS.md` - Skills (competências)
 
 ---
 
-## 📝 Índice Rápido por Tarefa
+## Referência Rápida
 
-### "Preciso fazer deploy"
-→ `DEPLOY_RAPIDO.md` → `SETUP_RAILWAY.md`
-
-### "Preciso configurar email para produção"
-→ `RESUMO_EMAIL_PRODUCAO.md` → `CONFIG_EMAIL_SIMPLES.md`
-
-### "Preciso entender como o email funciona"
-→ `LEIA-ME-EMAIL.md` → `CONFIG_EMAIL_SIMPLES.md`
-
-### "Preciso testar email AGORA para mostrar ao cliente"
-→ `DISPARAR_EMAIL_AGORA.md` → `TESTE_EMAIL_RAPIDO.md`
-
-### "Preciso testar email localmente"
-→ `TESTE_EMAIL.md`
-
-### "Preciso adicionar foto de perfil"
-→ `UPLOAD_FOTO_PERFIL.md`
-
-### "Algo não está funcionando"
-→ `PROBLEMAS_PRODUCAO.md` → `TROUBLESHOOTING_LOGIN.md`
-
-### "Quero ver o que foi feito"
-→ `RESUMO_FINAL.md`
+| Tarefa | Documento |
+|--------|------------|
+| Deploy inicial | `SETUP_RAILWAY.md` |
+| Configurar email | `CONFIG_EMAIL_SIMPLES.md` |
+| Testar notificações | `TESTE_EMAIL.md` |
+| Problemas de login | `TROUBLESHOOTING_LOGIN.md` |
+| Problemas gerais | `PROBLEMAS_PRODUCAO.md` |
 
 ---
 
-**Última atualização:** 29/10/2025 - Configurado para modo produção (6 meses)
+**Última atualização:** 24/11/2025
 

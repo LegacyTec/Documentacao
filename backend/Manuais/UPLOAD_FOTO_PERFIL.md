@@ -1,4 +1,4 @@
-# Upload de Foto de Perfil
+﻿# Upload de Foto de Perfil
 
 Este documento explica como funciona o sistema de upload de foto de perfil implementado.
 

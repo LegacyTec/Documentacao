@@ -1,6 +1,6 @@
-# Configuração de Email - Método Simplificado
+﻿# Configuração de Email - Método Simplificado
 
-## 🎉 Método ATUALIZADO - Muito Mais Fácil!
+##  Método ATUALIZADO - Muito Mais Fácil!
 
 Agora usamos a API **Resend** - é muito mais simples que o Gmail!
 
@@ -24,12 +24,12 @@ No Railway, adicione **apenas 1 variável**:
 EMAIL_API_KEY=re_1234567890abcdef...
 ```
 
-**Pronto!** 🎉
+**Pronto!** 
 
 ## Como Funciona
 
-- ✅ **Se configurado**: Envia emails reais via Resend
-- ✅ **Se não configurado**: Mostra nos logs que enviaria (para testes)
+-  **Se configurado**: Envia emails reais via Resend
+-  **Se não configurado**: Mostra nos logs que enviaria (para testes)
 
 ## Limites GRÁTIS
 
@@ -40,15 +40,15 @@ EMAIL_API_KEY=re_1234567890abcdef...
 
 ### Modo Sem API Key (Logs)
 Se você não configurar a `EMAIL_API_KEY`, o sistema vai:
-- ✅ Executar normalmente
-- ✅ Mostrar nos logs: "⚠️ EMAIL_API_KEY não configurada. Email seria enviado para: ..."
-- ✅ Funciona perfeito para mostrar ao cliente que o sistema está funcionando!
+-  Executar normalmente
+-  Mostrar nos logs: "️ EMAIL_API_KEY não configurada. Email seria enviado para: ..."
+-  Funciona perfeito para mostrar ao cliente que o sistema está funcionando!
 
 ### Modo Com API Key (Emails Reais)
 Configurando a `EMAIL_API_KEY`:
-- ✅ Envia emails reais para colaboradores
-- ✅ Você recebe relatórios de envio
-- ✅ Emails em português
+-  Envia emails reais para colaboradores
+-  Você recebe relatórios de envio
+-  Emails em português
 
 ## Comparação
 
@@ -71,10 +71,10 @@ Para demonstração ao cliente:
 ```
 Iniciando verificação de perfis desatualizados...
 Perfil desatualizado encontrado: João Silva
-⚠️ EMAIL_API_KEY não configurada. Email seria enviado para: joao@email.com
+️ EMAIL_API_KEY não configurada. Email seria enviado para: joao@email.com
 Assunto: Lembrete: Atualize seu perfil profissional - Altave
 Verificação concluída. Total de notificações enviadas: 1
 ```
 
-Perfeito para mostrar ao cliente! 🎯
+Perfeito para mostrar ao cliente! 
 

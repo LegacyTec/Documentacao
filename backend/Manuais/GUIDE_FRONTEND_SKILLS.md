@@ -1,6 +1,6 @@
-# 📘 Guia: Como Usar Skills Pré-definidas no Frontend
+﻿# 📘 Guia: Como Usar Skills Pré-definidas no Frontend
 
-## 🎯 Objetivo
+##  Objetivo
 
 Substituir os campos de texto livre por **dropdowns/selects** que mostram apenas skills pré-definidas do banco de dados.
 
@@ -48,7 +48,7 @@ Retorna todas as soft skills pré-definidas
 ]
 ```
 
-## 🔧 Como Implementar no Frontend
+##  Como Implementar no Frontend
 
 ### 1. Substituir Input de Texto por Select
 
@@ -105,7 +105,7 @@ useEffect(() => {
 const adicionarHardSkill = async () => {
   if (novaHardSkill.trim() && colaborador) {
     const novaSkill = {
-      nomeCompetencia: novaHardSkill.trim(), // ❌ Texto livre
+      nomeCompetencia: novaHardSkill.trim(), //  Texto livre
       colaborador: { id: colaborador.id }
     };
     // ...
@@ -134,7 +134,7 @@ const adicionarHardSkill = async () => {
 };
 ```
 
-## 📝 Lista de Skills Pré-definidas
+##  Lista de Skills Pré-definidas
 
 ### Hard Skills (30+ disponíveis)
 - Java, JavaScript, TypeScript, Python, C++, C#, Ruby, Go, Rust
@@ -154,7 +154,7 @@ const adicionarHardSkill = async () => {
 - Proatividade, Resiliência, Colaboração
 - Feedback construtivo, Autodisciplina, Visão estratégica
 
-## ✅ Benefícios
+##  Benefícios
 
 1. **Consistência**: Todos usam as mesmas skills
 2. **Busca**: Fácil buscar pessoas por skill

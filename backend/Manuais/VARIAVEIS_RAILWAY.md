@@ -1,17 +1,17 @@
-# Variáveis de Ambiente para o Railway
+﻿# Variáveis de Ambiente para o Railway
 
 Baseado na sua configuração atual no Railway, você precisa criar/adicionar as seguintes variáveis de ambiente:
 
-## ✅ Variáveis Já Configuradas (já estão no Railway)
+##  Variáveis Já Configuradas (já estão no Railway)
 
 Você já tem estas variáveis:
-- ✅ `SPRING_DATASOURCE_URL` 
-- ✅ `SPRING_DATASOURCE_USERNAME`
-- ✅ `SPRING_DATASOURCE_PASSWORD`
-- ✅ `SPRING_JPA_DATABASE_PLATFORM`
-- ✅ `SPRING_JPA_HIBERNATE_DDL_AUTO`
+-  `SPRING_DATASOURCE_URL` 
+-  `SPRING_DATASOURCE_USERNAME`
+-  `SPRING_DATASOURCE_PASSWORD`
+-  `SPRING_JPA_DATABASE_PLATFORM`
+-  `SPRING_JPA_HIBERNATE_DDL_AUTO`
 
-## 🔧 Variáveis Adicionais Necessárias
+##  Variáveis Adicionais Necessárias
 
 No painel do Railway, adicione estas variáveis:
 
@@ -35,7 +35,7 @@ SPRING_SERVLET_MULTIPART_MAX_FILE_SIZE=10MB
 SPRING_SERVLET_MULTIPART_MAX_REQUEST_SIZE=10MB
 ```
 
-## 📋 Resumo das Variáveis
+##  Resumo das Variáveis
 
 Copie e cole estas no Railway (Settings → Variables):
 
@@ -63,7 +63,7 @@ SPRING_SERVLET_MULTIPART_MAX_REQUEST_SIZE=10MB
 5. Digite o nome e valor
 6. Salve
 
-## ✅ Verificação
+##  Verificação
 
 Após adicionar as variáveis, o deploy deve funcionar corretamente!
 
