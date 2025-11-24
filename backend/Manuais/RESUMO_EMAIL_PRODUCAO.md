@@ -1,8 +1,8 @@
-﻿#  Sistema de Notificações por Email - MODO PRODUÇÃO
+# Sistema de Notificações por Email
 
-##  Configuração Final Implementada
+## Configuração de Produção
 
-###  Como Funciona
+## Funcionamento
 
 O sistema verifica **diariamente às 8:00** todos os colaboradores que:
 - Nunca atualizaram o perfil (`ultima_atualizacao = null`)
@@ -10,71 +10,61 @@ O sistema verifica **diariamente às 8:00** todos os colaboradores que:
 
 Quando encontra um perfil desatualizado, envia um email automaticamente.
 
-### ⚙️ Configuração Atual
+## Configuração do Scheduler
 
-**Scheduler (ProfileNotificationScheduler.java):**
-- **Frequência:** Diariamente às 8:00
-- **Intervalo:** 6 meses
-- **Cron:** `0 0 8 * * *`
+Arquivo: `ProfileNotificationScheduler.java`
 
-**Mensagem do Email:**
+- Frequência: Diária às 8:00
+- Intervalo: 6 meses
+- Cron expression: `0 0 8 * * *`
+
+## Mensagem
+
 - Assunto: "Lembrete: Atualize seu perfil profissional - Altave"
-- Conteúdo: Informa que o perfil não foi atualizado há mais de 6 meses
+- Conteúdo: Notificação de perfil desatualizado (6+ meses)
 
-###  Variáveis de Ambiente Necessárias
+## Variáveis de Ambiente
 
-No Railway ou localmente, configure:
+No Railway ou localmente:
 
 ```env
-EMAIL_API_KEY=re_4szh5P34_PBwcppn8MubKs1nCZtA4mHwQ
-EMAIL_FROM=delivered@resend.dev
+EMAIL_API_KEY=<sua_api_key_resend>
+EMAIL_FROM=<email_verificado>
 ```
 
-**Nota:** Para produção, recomenda-se verificar um domínio próprio no Resend e usar um email do tipo `notificacoes@altave.com.br`.
+**Produção:** Verificar domínio próprio no Resend e usar email do tipo `notificacoes@altave.com.br`.
 
-### 🧪 Testar Manualmente
+## Teste Manual
 
-Para testar sem esperar 6 meses ou a execução agendada, use o endpoint:
+Endpoint de teste:
 
 ```bash
-curl http://localhost:8080/api/teste/email?destinatario=pedro.hmattos19@gmail.com
+curl http://localhost:8080/api/teste/email?destinatario=<email_teste>
 ```
 
-Ou use o script:
-
-```bash
-./teste-email.sh
-```
-
-###  Logs
+## Logs
 
 O sistema registra:
--  Quantos colaboradores foram notificados
--  Status de cada envio (sucesso/erro)
--  Detalhes da API do Resend
+- Quantidade de colaboradores notificados
+- Status de cada envio
+- Detalhes da API Resend
 
-###  Próximos Passos para Produção
+## Configuração para Produção
 
-1. **Verificar domínio no Resend:**
-   - Acesse https://resend.com/domains
-   - Adicione `altave.com.br`
-   - Configure os registros DNS
+1. Verificar domínio no Resend:
+   - https://resend.com/domains
+   - Adicionar domínio da empresa
+   - Configurar registros DNS
 
-2. **Atualizar EMAIL_FROM:**
-   - Mude de `delivered@resend.dev` para `notificacoes@altave.com.br`
+2. Atualizar EMAIL_FROM:
+   - Usar email do domínio verificado
+   - Exemplo: `notificacoes@empresa.com.br`
 
-3. **Monitorar logs:**
-   - Verifique diariamente os logs após às 8:00
-   - Acompanhe quantas notificações foram enviadas
-
-###  Documentação Relacionada
-
-- `DISPARAR_EMAIL_AGORA.md` - Como testar imediatamente
-- `TESTE_EMAIL_RAPIDO.md` - Guia rápido de teste
-- `CONFIG_EMAIL_SIMPLES.md` - Configuração do Resend
+3. Monitoramento:
+   - Verificar logs diários após 8:00
+   - Acompanhar métricas de envio
 
 ---
 
-**Última atualização:** 29/10/2025
-**Status:**  PRODUÇÃO - Configurado para verificar a cada 6 meses
+**Última atualização:** 24/11/2025
 

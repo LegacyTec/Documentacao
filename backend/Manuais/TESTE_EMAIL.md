@@ -1,43 +1,36 @@
-﻿# 🧪 Teste de Email Local
+# Teste de Email Local
 
-##  Configuração feita:
+## Configuração
 
-**Email:** pedro.hmattos19@gmail.com  
-**API Key:** re_4szh5P34_PBwcppn8MubKs1nCZtA4mHwQ
+Configuração local em `application-local.properties`:
 
-##  Testar Agora:
+```properties
+email.api.key=${EMAIL_API_KEY}
+email.from=${EMAIL_FROM}
+```
+
+## Procedimento de teste
 
 ```bash
 cd backend-altave
 ./mvnw spring-boot:run -Dspring-boot.run.profiles=local
 ```
 
-##  O que vai acontecer:
+## Comportamento esperado
 
 1. Sistema inicia
-2. Aguarde até 2 minutos
-3. Você verá nos logs:
+2. Aguardar até 2 minutos (scheduler)
+3. Logs exibirão:
    ```
    Iniciando verificação de perfis desatualizados...
-    Email enviado com sucesso para: colaborador@email.com
+   Email enviado com sucesso para: colaborador@example.com
    ```
 
-4. **Você receberá email real** em: pedro.hmattos19@gmail.com
+## Configuração Railway
 
-##  Tudo Pronto!
-
--  Configuração local OK
--  API Key configurada
--  Email configurado
--  Pronto para testar!
-
-##  Railway:
-
-Quando fizer deploy, adicione no Railway:
+Variáveis necessárias:
 ```
-EMAIL_API_KEY=re_4szh5P34_PBwcppn8MubKs1nCZtA4mHwQ
-EMAIL_FROM=pedro.hmattos19@gmail.com
+EMAIL_API_KEY=<sua_api_key_resend>
+EMAIL_FROM=<seu_email_verificado>
 ```
-
-Vejas as configurações em: `VARIAVEIS_RAILWAY_EMAIL.txt`
 
