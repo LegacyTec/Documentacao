@@ -82,7 +82,7 @@ Consulte o [Manual de Instalação](./Manual%20de%20Instalação.md) para instru
 
 ## 📚 Documentação Técnica
 
-### 📝 Manuais e Guias
+### 📝 Manuais de Uso
 
 | Documento | Descrição | Link |
 |-----------|-------------|------|
@@ -90,14 +90,12 @@ Consulte o [Manual de Instalação](./Manual%20de%20Instalação.md) para instru
 | **Manual de Dados** | Estrutura do banco de dados, DER, dicionário | [📄 Ver manual](./Manual%20de%20Dados.md) |
 | **Manual do Usuário** | Guia de uso da plataforma | [📄 Ver manual](./manual%20do%20usuario.md) |
 
-### 💻 Guias de Programação
+### 💻 Guias de Desenvolvimento
 
-| Componente | Documento | Descrição | Link |
-|------------|-----------|-------------|------|
-| **Backend** | README.md | Arquitetura, endpoints da API, configurações | [📄 Ver guia](./backend/README.md) |
-| **Frontend** | Coding Guide | Padrões de código, estrutura de componentes | [📄 Ver guia](./frontend/CODING_GUIDE.md) |
-| **Frontend** | Manual de Programação | Guia completo para desenvolvedores | [📄 Ver guia](./frontend/MANUAL_PROGRAMACAO.md) |
-| **Frontend** | Manual do Usuário | Guia de uso da interface | [📄 Ver guia](./frontend/MANUAL_USUARIO.md) |
+| Componente | Descrição | Link |
+|------------|-------------|------|
+| **Backend** | Arquitetura, endpoints da API, configurações, padrões de código | [📄 Ver guia](./Manuais/BackEnd.md) |
+| **Frontend** | Estrutura de componentes, padrões, guia completo para devs | [📄 Ver guia](./Manuais/FrontEnd.md) |
 
 ## 📝 Requisitos
 
