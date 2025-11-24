@@ -2,7 +2,7 @@
 
 
 
-> 🚀 **LegacyTech** | 3º Semestre - FATEC SJC | API - Sprint 2
+> 🚀 **LegacyTech** | 3º Semestre - FATEC SJC | API - Sprint 3 ✅ CONCLUÍDA
 
 <p align="center">
     <a href="#-sobre-o-projeto">Sobre</a> |
@@ -32,23 +32,34 @@ Plataforma web para mapeamento de competências internas da Altave. Permite que 
 ## 📁 Estrutura do Projeto
 
 ```
-boards/
-├── backend/          # API Spring Boot (Java)
-├── frontend/         # Interface React + TypeScript + Vite
-├── Documentacao/     # Modelagem de dados, diagramas
-├── Manual de Instalação
-└── manual do usuario.md
+Documentacao/
+├── backend/              # 📦 Código-fonte completo do backend (API Spring Boot)
+│   ├── src/             # Source code Java
+│   ├── pom.xml          # Dependências Maven
+│   └── README.md        # Documentação do backend
+├── frontend/            # 📦 Código-fonte completo do frontend (React + TypeScript)
+│   ├── src/             # Source code React
+│   ├── package.json     # Dependências NPM
+│   └── README.md        # Documentação do frontend
+├── Documentacao/        # Modelagem de dados, diagramas
+├── Manuais/             # Manuais técnicos e de usuário
+├── Manual de Instalação.md
+├── manual do usuario.md
+├── Manual de Dados.md
+├── SPRINT_1.md          # Documentação Sprint 1
+├── SPRINT_2.md          # Documentação Sprint 2
+└── Sprint3.md           # Documentação Sprint 3
 ```
 
 ### 📦 Repositórios
 
+> **Nota:** Os códigos-fonte do backend e frontend foram consolidados neste repositório de documentação para facilitar a entrega final.
 
-
-| Componente | Link | Deploy |
-|------------|------|--------|
-| **Backend** | [🔗 Repositório](https://github.com/pedromattos11/backend-altave) | Railway |
-| **Frontend** | [🔗 Repositório](https://github.com/Edwilsonsj/front-altave) | Vercel |
-| **Boards/Cards** | [Board do Projeto](https://github.com/orgs/LegacyTec/projects/15) ||
+| Componente | Link Original | Cópia Local | Deploy |
+|------------|---------------|-------------|--------|
+| **Backend** | [🔗 Repositório Original](https://github.com/pedromattos11/backend-altave) | [`/backend`](./backend) | Railway |
+| **Frontend** | [🔗 Repositório Original](https://github.com/Edwilsonsj/front-altave) | [`/frontend`](./frontend) | Vercel |
+| **Boards/Cards** | [Board do Projeto](https://github.com/orgs/LegacyTec/projects/15) | - | - |
 
 
 ### 🛠️ Tecnologias
@@ -147,26 +158,39 @@ Consulte o [Manual de Instalação](./Manual%20de%20Instalação.md) para instru
 
 ---
 
-### 🏃‍♂️ Sprint 2 (Finaliza hoje - 26/10)
+### 🏃‍♂️ Sprint 2 (Concluída)
 **Período:** 06/10/2025 – 26/10/2025
 
 📄 **[Ver alocação detalhada e burndown → SPRINT_2.md](./SPRINT_2.md)**
 
 **User Stories:**
-- 🔄 **US 4:** Adicionar tags e avaliações aos perfis (8 SP)
-- 🔄 **US 5:** Busca por habilidades específicas (13 SP)
-- 🔄 **US 6:** Gerenciar perfis e permissões (8 SP)
+- ✅ **US 4:** Adicionar tags e avaliações aos perfis (8 SP)
+- ✅ **US 5:** Busca por habilidades específicas (13 SP)
+- ✅ **US 6:** Gerenciar perfis e permissões (8 SP)
 
 **Progress:** 17 issues | ✅ 7 concluídas (41%) | 🔄 5 em progresso | ⚙️ 3 em validação | 📋 2 pendentes
 
 ---
 
-### 🏃‍♂️ Sprint 3 (A Fazer)
+### 🏃‍♂️ Sprint 3 (✅ CONCLUÍDA - 89% entregue)
 **Período:** 03/11/2025 – 23/11/2025
 
-- [ ] **US 7:** Como **Gestor**, quero poder **avaliar o meu departamento**.
-- [ ] **US 8:** Como **Colaborador**, quero poder **incluir minhas certificações e experiências anteriores**.
-- [ ] **US 9:** Como **Administrador**, quero **gerar relatórios básicos sobre as competências**.
+📄 **[Ver alocação detalhada e burndown → Sprint3.md](./Sprint3.md)**
+
+**User Stories:**
+- ✅ **US 7:** Cadastro de 3 principais habilidades (5 SP)
+- ✅ **US 8:** Correção de bugs críticos do sistema (8 SP)
+- ✅ **US 9:** Documentação técnica e de usuário (13 SP)
+- ✅ **US 10:** Estruturação de times no sistema (5 SP)
+
+**Progress:** 9 issues | ✅ 8 concluídas (89%) | 🔍 1 em validação (Manual de Usuário)
+
+**Entregas Principais:**
+- ✅ Cadastro de 3 principais habilidades destacadas no perfil
+- ✅ Sistema de times/equipes estruturado
+- ✅ Correção de 3 bugs críticos (menu lateral, salvamento, filtros)
+- ✅ Manual de Dev e Manual de Dados finalizados
+- 🔍 Manual de Usuário em validação
 
 ---
 
