@@ -1,16 +1,10 @@
-# Use OpenJDK 17 como base
-FROM openjdk:17-jdk-slim
+# Dockerfile para Railway
+FROM maven:3.9-eclipse-temurin-17 AS build
 
-# Instalar Maven
-RUN apt-get update && apt-get install -y maven && rm -rf /var/lib/apt/lists/*
-
-# Definir diretório de trabalho
 WORKDIR /app
 
-# Copiar pom.xml primeiro para cache das dependências
+# Copiar pom.xml e baixar dependências primeiro (cache)
 COPY pom.xml .
-
-# Baixar dependências
 RUN mvn dependency:go-offline -B
 
 # Copiar código fonte
@@ -19,8 +13,19 @@ COPY src ./src
 # Build da aplicação
 RUN mvn clean package -DskipTests -B
 
-# Expor porta
+# Fase de runtime
+FROM eclipse-temurin:17-jre
+
+WORKDIR /app
+
+# Copiar JAR
+COPY --from=build /app/target/backend-altave-0.0.1-SNAPSHOT.jar app.jar
+
+# Criar diretório de uploads
+RUN mkdir -p /app/uploads && chmod 755 /app/uploads
+
 EXPOSE 8080
 
-# Comando para iniciar a aplicação
-CMD ["java", "-jar", "target/backend-altave-0.0.1-SNAPSHOT.jar"]
+ENV JAVA_OPTS="-Xmx512m -Xms256m"
+
+CMD ["java", "-jar", "app.jar"]

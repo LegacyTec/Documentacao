@@ -14,12 +14,13 @@ public class CorsConfig {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**")
-                        .allowedOriginPatterns(
+                        .allowedOriginPatterns( // Using patterns to support Railway backend
                             "http://localhost:5173",
+                            "http://localhost:3000",
                             "https://*.vercel.app",
                             "https://front-altave.vercel.app"
                         )
-                        .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
+                        .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS", "PATCH")
                         .allowedHeaders("*")
                         .allowCredentials(true);
             }
